@@ -1,0 +1,23 @@
+1. dokumen root adalah elemen utama yang menjadi basis atau awal dari suatu struktur dokumen atau sistem, di mana semua elemen lain berada di bawahnya.
+
+2. dokumen root tidak harus selalu berada di direktori C:\xampp\htdocs. Lokasi dokumen root dapat diubah sesuai dengan kebutuhan. pada windows XAMPP dokumen root memang terletak pada direktori C:\xampp\htdocs, ini sudah di set untuk mempermudah pengguna
+
+3. Penjelasan mengenai git: init, clone, remote, add, commit,  push, checkout
+a.   git init
+Perintah ini digunakan untuk menginisialisasi repository Git baru di direktori lokal. Dengan menjalankan git init, Git akan membuat direktori .git di dalam folder proyek Anda dan mulai melacak perubahan file.
+b.   git clone
+Perintah ini digunakan untuk mengkloning (menyalin) repository Git dari server remote (misalnya GitHub, GitLab) ke direktori lokal. Ini akan mengunduh seluruh isi repository, termasuk sejarah commit dan branch yang ada. 
+c. git remote
+Perintah ini digunakan untuk mengelola koneksi ke repository remote, yaitu repository yang tidak berada di komputer lokal Anda (misalnya di GitHub). Anda bisa menambah, melihat, atau menghapus koneksi remote dengan perintah ini.
+d. git add
+Perintah ini digunakan untuk menambah file yang telah diubah atau baru dibuat ke staging area. Staging area adalah tempat file yang siap untuk di-commit. File yang telah di-add akan disertakan dalam commit selanjutnya.
+e. git commit
+Perintah ini digunakan untuk menyimpan snapshot dari file yang ada di staging area ke dalam history repository. Setiap commit menyimpan perubahan yang telah dilakukan sejak commit terakhir, disertai dengan pesan deskriptif yang menjelaskan perubahan tersebut.
+f.  git push
+Perintah ini digunakan untuk mengirim (mem-push) commit yang telah dibuat di repository lokal ke repository remote (misalnya GitHub atau GitLab). Ini akan memperbarui repository remote dengan commit yang ada di branch lokal.
+g. git checkout
+Perintah ini digunakan untuk berpindah (checkout) ke branch lain, atau untuk memulihkan versi tertentu dari file di repository. Anda juga bisa menggunakan checkout untuk membuat branch baru atau memeriksa commit lama.
+
+4.  GitHub dan GitLab adalah platform pengelola repositori kode yang dapat membantu pengembang berkolaborasi. GitHub lebih populer untuk proyek sumber terbuka, sedangkan GitLab lebih terintegrasi dengan DevOps. 
+5. Variabel user adalah variabel lingkungan yang ditetapkan untuk setiap pengguna, sedangkan variabel system adalah variabel lingkungan yang ditetapkan untuk semua pengguna. 
+6. variabel dan konstanta adalah konsep yang digunakan untuk menggambarkan dan memecahkan masalah. Variabel digunakan untuk merepresentasikan nilai yang berubah, sedangkan konstanta adalah nilai tetap yang konsisten. 
